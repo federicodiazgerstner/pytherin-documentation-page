@@ -34,7 +34,7 @@ body {
     position: fixed;
     height: 100vh;
     text-align: justify;
-    width: 12vw;
+    width: 10vw;
     background-color: rgb(7, 49, 42, 0.7);
     /*background-color: rgba(255,255,255,0.5); */
     background-blend-mode: lighten;
@@ -47,11 +47,15 @@ body {
     background-color: rgba(235, 231, 231, 0.8)
     text-align: justify;
     padding: 10px 40px 40px 40px;
-    margin-left: 13vw;
+    margin-left: 280px;
 }
 
 ul {
     padding: 0;
+}
+
+section > ul {
+    padding-left: 40px;
 }
 
 ul > a {
