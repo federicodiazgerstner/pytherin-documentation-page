@@ -1,0 +1,90 @@
+@font-face { font-family: Bluu Next; src: url('/fonts/BluuNext-Bold.otf'); }
+
+html {
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode: lighten;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 150%;
+}
+
+#logo-img {
+    position: fixed;
+    width: 100vw;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 32, 28);
+}
+
+.wrapper {
+    height: 85px;
+}
+#content-page {
+    min-height: calc(100vh - 85px);
+    justify-self: stretch;
+    display: flex;
+}
+
+#navbar {
+    position: fixed;
+    height: 100vh;
+    text-align: justify;
+    width: 12vw;
+    background-color: rgb(7, 49, 42, 0.7);
+    /*background-color: rgba(255,255,255,0.5); */
+    background-blend-mode: lighten;
+    min-width: 200px;
+    padding: 20px;
+}
+
+#content {
+    width: 88vw;
+    background-color: rgba(235, 231, 231, 0.8)
+    text-align: justify;
+    padding: 10px 40px 40px 40px;
+    margin-left: 13vw;
+}
+
+ul {
+    padding: 0;
+}
+
+ul > a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: rgb(5, 32, 28);
+}
+
+h1, h3 {
+    font-family: Bluu Next,serif;
+}
+
+ul > a:hover {
+    opacity: 0.5;
+}
+
+#content {
+    color: rgb(7, 7, 58);
+}
+
+li {
+    padding: 5px;
+}
+
+.code-div {
+    background-color: lightgrey;
+    width: 40vw;
+}
+
+.tab {
+    margin-left: 40px;
+}
