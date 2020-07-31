@@ -1,4 +1,7 @@
-@font-face { font-family: Bluu Next; src: url('/fonts/BluuNext-Bold.otf'); }
+@font-face { 
+    font-family: Bluu Next; 
+    src: {{ url_for('static', filename='BluuNext-Bold.otf') }}; 
+}
 
 html {
     background-color: rgba(255,255,255,0.5);

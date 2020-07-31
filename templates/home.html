@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles.css')}}">
+    <style>
+        @font-face{
+            font-family: Bluu Next; 
+            src: url(/static/BluuNext-Bold.otf);
+        }
+        </style>
     <title>Or perhaps in Python you'll make your real friends</title>
 </head>
 <body>
     <div class="wrapper">
         <div id="logo-img">
-            <a href="index.html"><img width="80" height="80" src="/images/imageedit_4_9620185281.png" alt="Pytherin"></a>
+            <a href="index.html"><img width="80" height="80" src="/static/imageedit_4_9620185281.png" alt="Pytherin"></a>
         </div>
     </div>
     <div id="content-page">
